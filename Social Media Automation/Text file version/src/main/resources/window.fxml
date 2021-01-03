@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.Controllers.WindowController">
+   <children>
+      <Label layoutX="70.0" layoutY="21.0" prefHeight="37.0" prefWidth="260.0" text="WEB AUTOMATION">
+         <font>
+            <Font name="Microsoft YaHei" size="27.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="#a503ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <GridPane layoutX="50.0" layoutY="100.0" prefHeight="200.0" prefWidth="300.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="100.0" minHeight="0.0" prefHeight="100.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="fbBtn" mnemonicParsing="false" onAction="#fbClick" prefHeight="100.0" prefWidth="100.0" styleClass="facebook" stylesheets="@style.css" />
+            <Button fx:id="instaBtn" mnemonicParsing="false" onAction="#instaClick" prefHeight="100.0" prefWidth="100.0" styleClass="instagram" stylesheets="@style.css" GridPane.columnIndex="1" />
+            <Button fx:id="twitterBtn" mnemonicParsing="false" onAction="#twiClick" prefHeight="100.0" prefWidth="100.0" styleClass="twitter" stylesheets="@style.css" GridPane.columnIndex="2" />
+            <Button fx:id="gitHubBtn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#gitClick" prefHeight="100.0" prefWidth="100.0" styleClass="gitHub" stylesheets="@style.css" GridPane.rowIndex="1" />
+            <Button fx:id="linkedInBtn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#liClick" prefHeight="100.0" prefWidth="100.0" styleClass="linkedIn" stylesheets="@style.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="iitBtn" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#iitClick" prefHeight="100.0" prefWidth="100.0" styleClass="iit" stylesheets="@style.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Button fx:id="setBtn" layoutX="350.0" layoutY="26.0" mnemonicParsing="false" onAction="#settings" prefHeight="27.0" prefWidth="27.0" styleClass="settings" stylesheets="@style.css" text=" " />
+   </children>
+</AnchorPane>

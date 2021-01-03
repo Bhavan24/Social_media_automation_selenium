@@ -1,0 +1,106 @@
+.facebook {
+    -fx-background-image:url('/Photos/fb.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.facebook:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.facebook:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.twitter {
+    -fx-background-image:url('/Photos/tw.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.twitter:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.twitter:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.instagram {
+    -fx-background-image:url('/Photos/insta.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.instagram:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.instagram:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.linkedIn {
+    -fx-background-image:url('/Photos/li.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.linkedIn:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.linkedIn:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.gitHub {
+    -fx-background-image:url('/Photos/git.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.gitHub:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.gitHub:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.iit {
+    -fx-background-image:url('/Photos/iit.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.iit:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.iit:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.settings {
+    -fx-background-image:url('/Photos/set.png');
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.settings:hover {
+    -fx-background-color : rgb(220, 220, 220);
+    -fx-background-radius :  10;
+}
+.settings:pressed {
+	-fx-background-color: transparent;
+    -fx-background-size: 100% 100%;
+}
+.buttonRed {
+    -fx-background-color :  rgb(244, 14, 77);
+    -fx-background-radius :  40;
+    -fx-alignment: center;
+}
+.buttonRed:hover {
+    -fx-background-color : linear-gradient(to top left, #2EF3D3, #B13BE0);
+    -fx-background-radius :  40;
+    -fx-alignment: center;
+}
+.buttonRed:pressed {
+    -fx-background-color :  rgb(244, 14, 77);
+    -fx-background-radius :  40;
+    -fx-alignment: center;
+}
